@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:text="Wed, Mar 16"
+    android:textColor="@color/text_color_1_dark_gray"
+    android:textSize="17sp"
+    android:gravity="center|start"
+    android:paddingStart="4dp"
+    android:fontFamily="@font/inter_regular"
+    />

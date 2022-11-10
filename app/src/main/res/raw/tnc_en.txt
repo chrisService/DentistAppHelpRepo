@@ -1,0 +1,164 @@
+GENERAL TERMS AND CONDITIONS – DENTIFY AB
+Valid from. 2022-06-01 and until further notice
+
+
+1. General information about the service
+These general terms and conditions apply when private individuals ("Customers") use the matching and booking service ("Matching and Booking Service") on the Dentify app (the "App") to book and pay for a visit to/treatment by a licensed dentist or licensed dental hygienist ("Consultation and Treatment Service"). The app is owned and operated by Dentify AB, registration no. 559357-9922 (hereinafter "Dentify" or the ""). Dentify is a matching and booking service that helps people get in touch with a dentist or dental hygienist who has the skills that best correspond to the person's specific needs. Every dentist and dental hygienist who is connected to the Dentify intermediary service ("The intermediary service") is a dentist certified by the National Board of Health and Welfare or a dentist with a special appointment or dental hygienist. It is Dentify's obligation to check that dentists or dental hygienists who are mediated via Dentify's website meet these requirements. Dentists, dental hygienists, dental nurses and dental technicians are collectively referred to below as ("Caregiver").
+
+The consultation and treatment methodology used by the Caregivers varies. In situations that require direct and urgent medical measures, the person concerned must contact 112 or the nearest emergency department within general care.
+
+The Customer undertakes to follow these General Terms and Conditions and any other rules and instructions that the Company publishes from time to time. The General Terms and Conditions and any other terms and conditions and written agreements between the Company and the Customer regarding the use of the website and Matching and Booking Service, as well as payment for visits to Caregivers, together form the "Agreement".
+
+The Customer becomes bound by these General Terms and Conditions when he uses the Matching and Booking Service on the website to book and pay for Consultation and Treatment Services.
+
+Dentify and the Caregivers are responsible for the Consultation and Treatment Services offered via Dentify being provided in accordance with applicable law, including the Swedish Dental Care Act (1985:125), the Swedish Patient Safety Act (2010:659), the Swedish Patient Data Act (2008:355) and applicable regulations. Caregiver liability is thus not regulated by these General Terms and Conditions, but follows from applicable legislation.
+
+
+2. User Account
+
+2.1 Use of the Service
+In order to use Dentify, the Customer must create a user account, which the Customer does in the App.
+
+2.2 Registration information
+To create a user account, the Customer must answer a number of questions. The Customer must also be 18 years of age and have access to
+e-identification, i.e. a Bank ID; this so that Dentify can identify the Customer. The Customer may only use Dentify for their own Consultation and Treatment Service. If the Customer is the guardian of a child, however, the Customer has the right to use Dentify on behalf of the child.
+
+
+3. Consultation and Treatment Services
+
+3.1 Booking of Consultation and Treatment Service
+After registering your user account, the Customer can, through Dentify, book an appointment with a licensed dentist or licensed dental hygienist to receive healthcare contact in the form of a video meeting, as well as obtain information about various dental diseases and their symptoms.
+
+3.2 Description of the Consultation and Treatment Service
+When the Consultation and Treatment Service starts, the Customer will be asked to describe his problem to the Caregiver, who in turn can carry out an ocular examination and then make a diagnosis and possibly suggest consultation and treatment measures, if possible. In order to be able to carry out a consultation and treatment, the Customer must therefore have downloaded the App on a mobile phone with a camera.
+
+3.3 Profile of the Caregiver
+Consultation and Treatment Services carried out via Dentify are carried out by Caregivers who have Swedish identification at the time of delivery of the Consultation and Treatment Service. This has been verified by Dentify.
+
+3.4 Shared Information
+Information added by the Customer to the App can go and be uploaded into the Caregiver's record keeping system. Information contained in the Caregiver's record keeping system can also be uploaded to the App to facilitate the dental care history for the Customer and used by other Caregivers who are booked and approved by the Customer in the App.
+
+
+4. Provision of Dentify; Availability
+
+4.1 Availability of the Service
+The app must be available at all hours of the day, all days of the year, with the exception of unforeseen or planned operational interruptions in the form of maintenance, so that the Customer can log into their user account and access their data at any time.
+
+
+4.2 Any downtime
+In the event of planned operational measures, the Customer will be notified in good time. In the event of any unplanned operational disruptions, the problem will be rectified as soon as possible. There is a risk that the service will not be available during ongoing measures. Dentify will support with all its might The Customer must have access to their services and get the best user experience. However, Dentify is not responsible for errors caused by the Customer's own mobile phone or computer.
+
+
+5. Support; reporting of errors and interruptions
+
+For questions regarding the use of the App, the Customer is referred to Dentify's support. The Customer reaches support at support@dentify.se. Support is open at the times specified in the App and on the website. Support aims to respond within 24 hours of a case being submitted, excluding weekends. The Customer can also find answers to frequently asked questions on the website. The Customer is asked to report errors or interruptions in the App to Dentify via the support above as quickly as possible after the Customer discovers the error or interruption.
+
+6. Payment
+
+6.1 Contracting parties
+Agreements for the purchase of Consultation and Treatment Services are entered into between the Customer and the Caregiver. Agreement on the use of Matching and the booking service on the App is entered into between the Customer and the Company. A Customer who is a private person is covered by the provisions of the Swedish Act (2005:59) on distance contracts and contracts outside business premises. In order to complete booking and payment on the website, it is required that the Customer is at least 18 years old or has a guardian's approval. Bookings may not be made in another person's name without their consent. The Company reserves the right to refuse or change a Customer's booking in individual cases.
+
+6.2 Cost of Service
+It costs nothing to download the App or to set up a user account. Until then, all consultations will be free. Therefore, some Caregivers may want to charge a fee for Consultation and Treatment Services. The price for the Consultation and the Treatment Service will be clearly displayed and the Customer is free to choose whether he wants to accept the fee or not.
+
+6.3 Payment discrepancies
+In the case of a billable Consultation and Treatment Service, the Consultation and Treatment Service will not be carried out if no payment is made.
+
+6.4 Payment methods
+In the case of chargeable Consultation and Treatment Services, payment will be made via the payment solutions presented in the App. Dentify provides various payment solutions. Examples of these are Klarna, Swish, Stripe, etc. All payment solutions deliver secure payment options with secure identification via BankID. Customers who use the App and pay accept the supplier's terms and conditions (Klarna, Swish, Stripe, etc.). More information about the different payment methods and Customer service can be found on their website.
+
+6.5 Payment Confirmation
+Payment confirmation and link to these General Terms and Conditions are delivered digitally by e-mail after approved payment to the e-mail address specified in the booking.
+
+The number of licensed dentists and licensed dental hygienists connected to Matching and the booking service, as well as times available for booking, may vary from time to time. If there are no times available for booking, the Customer will be informed of this before booking. The Company reserves the right to indicate on the website that booking of Consultation and Treatment Services, with some or all Caregivers, cannot be done at the moment.
+
+6.6 Right of withdrawal
+Provided that the Consultation and Treatment Service have not already been performed by the Caregiver in accordance with the booking on the website, the Customer who is a private person, according to the Swedish Act (2005:59) on distance contracts and contracts outside business premises, has a 14-day right of withdrawal. A Customer who is a private person thus has the right to cancel his purchase of Consultation and Treatment Services within the cancellation period without giving any reason. The cancellation period expires fourteen (14) days after the purchase.
+
+To exercise the right of withdrawal, the Customer must send the Company a clear and unambiguous message about the Customer's decision to withdraw from the Agreement and return the digital receipt to info@dentify.se. The Customer can also electronically fill in and submit a notice of exercise of the right of withdrawal on the Company's website dentify.se. The Company will confirm via e-mail without delay that the Company has received the Customer's decision to exercise the right of withdrawal.
+
+If the Customer exercises its right of withdrawal, the Company will refund all possible payments that the Company received from the Customer. The refund will be made without undue delay and no later than fourteen (14) days from and including the day on which the Company was notified of the Customer's decision to withdraw from the Agreement. The Company will use the same means of payment for the refund that the Customer himself has used for payment to the Company, unless the Customer has expressly agreed otherwise with the Company. The refund will not be associated with any cost to the Customer.
+
+6.7 Customer Satisfaction Guarantee
+Dentify offers a Customer Satisfaction Guarantee. Dentify's satisfied Customer guarantee means that you, as a client, can request to see a new Caregiver free of charge if, against the odds, you are not satisfied with the Caregiver you have met. If you are unsatisfied with a Consultation and Treatment Service call that is mediated by Dentify and want to request to see a new Caregiver, please contact info@dentify.se within 48 hours. The satisfied Customer guarantee only applies to the first conversation with your health Caregiver.
+
+
+
+
+
+7. Booking
+
+7.1 Booking conditions
+Consultation and Treatment Services with Caregivers must be booked in advance. When booking, the Customer receives information about which dates are available for booking Consultation and Treatment Services with their own Caregiver or the Caregivers recommended for the Customer. In order to complete the booking, the Customer must prepay any chargeable Consultation and treatment services in the manner specified by the Company.
+
+Cancellation can take place up to and including twenty-four (48) hours before the booked event. Cancellation takes place by logging into the Customer's personal account. Confirmation of the cancellation is sent by e-mail. If the Customer has not received any confirmation of the cancellation, it is his responsibility to contact the Company's Customer Service within twenty-four (24) hours before the booked event at the latest. If the Customer has not made a cancellation but is absent from the visit or the cancellation has not been confirmed by the Company, the Customer may be charged by the Caregiver. When the Customer has booked an appointment for the performance of the Consultation and Treatment Service, a separate agreement exists between the Customer and the Caregiver.
+
+The Company reserves the right to change the range of Caregivers. On the website you will find more information about availability, restrictions and other important information regarding the booking. The Company recommends that this be checked before booking and payment.
+
+7.2 Customer's responsibility
+The Customer is responsible for having the necessary connections and equipment for using the service and for making payments via the App. Necessary connections and equipment mean i.a. working internet and mobile connections and digital devices and browsers that enable access to booking, payment and delivery of the service via video call.
+
+For video calls, the Customer is responsible for providing equipment (computer/mobile/tablet, microphone, camera) and a fixed internet connection. The Customer is responsible for keeping copies of the booking confirmation and other messages sent from the Company to the Customer in connection with the payment.
+
+The Customer is responsible for the accuracy of the information provided in connection with booking and payment on the website. The Company and Caregiver are not responsible for any damages that arise due to the Customer providing incorrect information.
+
+Customer undertakes as a user of the website and the Matching and Booking Service to:
+a) Do not use the website or the Matching and Booking Service for any purpose other than necessary and personal Consultation and Treatment Service with Caregivers.
+b) Do not use the website or Matching and the booking service in situations that require/life-threatening medical care. In situations that require direct and urgent medical measures, the person concerned must contact 112 or the nearest emergency department within general care.
+c) If the Customer chooses to continue going to the Caregiver mediated by the Company, continue to book the Customer's visit with him via the website and Matching and the booking service.
+d) Manage the Customer's login information (among other things password to BankID) in such a way that no other person becomes aware of it.
+e) Immediately report changes to previously provided information about changes to these steps such as address, telephone number, e-mail address, credit card information, etc.
+
+7.3 Caregiver's responsibility
+Caregivers are responsible for the Consultation and Treatment Services being carried out in a satisfactory and professional manner. Consultation and Treatment Services that can be booked by the Customer in the App are carried out by selected Caregivers who, through an agreement with the Company, have undertaken to perform the services in accordance with the quality requirements that the Company sets from time to time.
+
+When the Customer has booked an appointment for Consultation and Treatment Services execution, a separate agreement exists between the Customer and the Caregiver. This means that the Caregiver's conditions for the Consultation and the execution of the Treatment Service apply and that the Customer is responsible for informing himself about and following these conditions. The Customer must contact the Caregiver in the event of a complaint about the Consultations or Treatment Services performed.
+
+7.4 Complaints and feedback from the Customer
+Any complaints and comments on the performance of the Consultation and the Treatment Service must primarily be submitted to and handled by the relevant Caregiver. The Company is, however, interested in the Customer's experience of the Consultation and the Treatment in order to check and improve the match and booking between the Customer and Caregiver.
+
+7.5 The Company's responsibility
+The Company is not a party to the agreement on the purchase of Consultation and Treatment Services or other agreements entered into between the Customer and Caregiver regarding the performance of the Consultation and Treatment Services. The Company thus has no responsibility for any disputes that may arise between the Customer and Caregiver, e.g. misunderstandings in agreements, disagreements regarding the performance of the service, damage or non-payment.
+
+The Company is not responsible for damages, losses (either direct or indirect) or other inconveniences that can be derived from the implementation of, or are otherwise connected to, the Consultation and Treatment Service that the website enables booking of. The Company does not reimburse and shall not be held responsible for any additional costs that may have arisen as a result of booking the Consultation and Treatment Service.
+
+The Company can never be held liable for damages as a result of incorrect execution of Consultation and Treatment Services. However, the Company is obliged to check that Caregivers meet the Company's requirements for valid identification and necessary competence.
+
+7.6 Availability
+The service is normally available 24 hours a day, seven days a week. However, the Company does not guarantee and is not responsible that the service is free of any errors, delays or interruptions. The Company reserves the right to temporarily suspend the provision of the service at any time for service purposes, e.g. bug fixes, maintenance and upgrades. The Company has no responsibility for updating the service's access rights. The Company works actively to ensure that the information published on the website is correct, but cannot guarantee this.
+
+
+8. Limitation of Liability
+8.1 The Company's responsibility
+The Company is not responsible in any case for indirect damage or consequential damage as a result of errors or deficiencies in the website.
+
+8.2 Force Majeure
+The Company is released from any liability for compensation or other liability towards the Customer if the Company is prevented from fulfilling its obligations due to circumstances beyond the Company's control or ability which the Company could not reasonably be expected to foresee, and whose consequences the Company could not reasonably have avoided or overcome, or if The Company is prevented from fulfilling its obligations due to a circumstance attributable to a third party or due to a natural disaster, lightning strike, power outage, labor conflict, war or other unrest, fire, newly added or amended legislation or authority regulation, failure in external telecommunications connection or similar circumstances.
+
+
+9. Assignment and subcontracting
+The Customer may not assign this Agreement, or its rights and obligations under this Agreement, without prior written consent from the Company. The Company has the right, without the Customer's consent, to transfer this Agreement in whole or in part, or its rights and obligations under this Agreement, such as e.g. management of invoicing. Furthermore, the Company has the right to hire subcontractors for the fulfillment of its obligations according to the Agreement.
+
+10. Termination of brokerage service
+Agreements on the use of the Company's mediation service are to be seen as an agreement that applies until either party terminates the agreement. The Company and the Customer each have the right to terminate the agreement at any time. A termination does not affect the Customer's payment responsibility for already booked or completed Consultation and Treatment Services. Customers who wish to stop using the Company's services must contact the Company's Customer service for deletion of the personal login account.
+
+If the Company judges that the Customer is abusing the use of services, the Company has the right to immediately suspend the Customer. The Customer must be notified in writing that such action has been taken.
+
+11. Other matters
+11.1 Change of Terms
+The Company has the right to change these General Terms and Conditions without prior notice to the Customer, regardless of reason. Any changes will take effect as soon as they become available on the website. The Customer is therefore asked to keep up-to-date with regard to the General Terms and Conditions.
+
+11.2 Intellectual Property Rights
+The Company owns and disposes of all intellectual property rights, including name rights, trademarks, trademarks (both registered and unregistered), copyrights (including source code), all software, software licenses or patents, Customer databases, registers, texts, images and logos that are managed by the Company and which is available on the website. Nothing in these General Terms and Conditions shall be construed as a transfer of these intellectual property rights. Any copying, modification, transfer and/or other use of material not expressly permitted under these terms is prohibited. The Customer does not have the right to copy, duplicate, make available or otherwise dispose of such material. Customer acknowledges and accepts that unauthorized use of these intellectual property rights may, in addition to constituting a violation of these terms, be criminal. The Company reserves the right to take legal action in the event of such unauthorized use of these intellectual property rights. Any intellectual property rights that arise as a result of the provision of the App and/or other services to the Customer shall belong to the Company with exclusive rights. Such exclusive right includes a right to freely modify, transfer and sublicense such results. Customer may not use the App (i) for any fraudulent or otherwise illegal purpose, (ii) in a manner intended to interfere with the operation of the App, (iii) to investigate, modify, adapt, translate, reverse engineer, decompile or decompile any part of the App, including without limitation its object code or source code, (iv) to copy, reproduce, sell or otherwise exploit Dentify or its content, (v) to remove any copyright, trademark or other proprietary notices from Dentify or materials found in Dentify, or to transmit or otherwise introduce viruses, trojans, worms, or other malicious software or code, or otherwise damage or adversely affect Dentify's availability or functionality.
+
+12. Complaints
+12.1 Managed by Dentify
+If the Customer has complaints regarding the App, we ask the Customer to contact support in the first instance. The same applies if the Customer has a complaint regarding the care provided by the Caregiver within the framework of a Consultation and Treatment Service (see point 5). This is so that Dentify can put the Customer in contact with the person who performed the Consultation and the Treatment Service.
+
+12. 2 Managed by IVO (Inspection for Care and Care)
+Complaints regarding the care provided by the Caregiver within the framework of a Consultation and Treatment Service can also be submitted to IVO (Inspektionen för Vård och Omsorg). Further information on what applies in the event of dissatisfaction with dental care can be found on 1177.
+
+13. Choice of law and dispute resolution
+The agreement is governed by Swedish law. In the event of a dispute relating to the interpretation or application of the Agreement, the Company and the Customer shall first try to reach an agreement. If the Company and the Customer cannot agree, the dispute can be heard by a general court. Disputes can also be tried by the General Complaints Board (Box 174, 101 23 Stockholm, [www.arn.se](http://www.arn.se)), whose decision is a recommendation to the parties on how the dispute should be resolved.
+
+● * *

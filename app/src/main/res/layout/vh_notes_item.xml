@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="80dp"
+    android:layout_marginTop="16sp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:text="This remineralization technique will give the best chance for preventing future cavities..."
+    android:textColor="@color/text_color_1_dark_gray"
+    android:fontFamily="@font/inter_regular"
+    android:textSize="16sp"
+    android:textAlignment="textStart"
+    android:background="@drawable/bg_appointment_conformation_item"
+    android:paddingHorizontal="14dp"
+    android:paddingVertical="10dp"/>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".ui.fragments.settings.DisplayLanguageFragment">
+
+
+    <ImageView
+        android:id="@+id/ivAppbarBackground"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBar_size"
+        android:background="@drawable/ic_top_bar_bg"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@color/appBarColor"
+        android:drawableStart="@drawable/ic_back_icon"
+        android:stateListAnimator="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/ivAppbarBackground"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/ivAppbarBackground" />
+
+    <TextView
+        android:id="@+id/tvAppbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/display_language"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivAppbarBackground"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="@+id/ivAppbarBackground"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvChangeLangText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/change_the_language_of_the_text"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/ivAppbarBackground" />
+
+    <ImageView
+        android:id="@+id/ivBorder01"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="18dp"
+        android:background="@color/borderColor"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/tvChangeLangText"
+        tools:ignore="ContentDescription" />
+
+
+    <RadioGroup
+        android:id="@+id/rgLang"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/ivBorder01">
+
+
+        <RadioButton
+            android:id="@+id/rbSwedish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:buttonTint="@color/menu_selected_color"
+            android:textColor="@color/menu_selected_color"
+            android:textSize="16sp"
+            android:fontFamily="@font/inter_regular"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorder01"
+            tools:text="Swedish" />
+
+        <ImageView
+            android:id="@+id/ivBorder02"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="18dp"
+            android:background="@color/borderColor"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/rbSwedish"
+            tools:ignore="ContentDescription" />
+
+        <RadioButton
+            android:id="@+id/rbEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/menu_selected_color"
+            android:textColor="@color/menu_selected_color"
+            android:textSize="16sp"
+            android:fontFamily="@font/inter_regular"
+            android:layout_marginTop="18dp"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorder02"
+            tools:text="English" />
+
+
+    </RadioGroup>
+
+
+
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

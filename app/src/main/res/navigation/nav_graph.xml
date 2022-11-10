@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.dentify.dentify.ui.fragments.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://dentify.app.com/patients/user?bankid=true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.dentify.dentify.ui.fragments.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.dentify.dentify.ui.fragments.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/appointmentsFragment"
+        android:name="com.dentify.dentify.ui.fragments.appointments.AppointmentsFragment"
+        android:label="fragment_appointments"
+        tools:layout="@layout/fragment_appointments" />
+    <fragment
+        android:id="@+id/videoCallFragment"
+        android:name="com.dentify.dentify.ui.fragments.videoCall.VideoCallFragment"
+        android:label="fragment_video_call"
+        tools:layout="@layout/fragment_video_call" >
+        <argument
+            android:name="roomid"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://dentify.app.com/patients/video?roomid={roomid}" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.dentify.dentify.ui.fragments.signUp.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://dentify.app.com/patients/user?open=true" />
+    </fragment>
+    <fragment
+        android:id="@+id/pickDateAndTimeFragment"
+        android:name="com.dentify.dentify.ui.fragments.pickDateAndTime.PickDateAndTimeFragment"
+        android:label="fragment_pick_date_and_time"
+        tools:layout="@layout/fragment_pick_date_and_time" />
+    <fragment
+        android:id="@+id/uploadImageFragment"
+        android:name="com.dentify.dentify.ui.fragments.uploadImage.UploadImageFragment"
+        android:label="fragment_upload_image"
+        tools:layout="@layout/fragment_upload_image" />
+    <fragment
+        android:id="@+id/reasonForAppointmentFragment"
+        android:name="com.dentify.dentify.ui.fragments.reason.ReasonForAppointmentFragment"
+        android:label="fragment_reason_for_appointment"
+        tools:layout="@layout/fragment_reason_for_appointment">
+        <action
+            android:id="@+id/openImageUpload"
+            app:destination="@id/uploadImageFragment"
+            app:enterAnim="@anim/slide_out_left"
+            app:exitAnim="@anim/slide_in_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/appointmentSummaryFragment"
+        android:name="com.dentify.dentify.ui.fragments.appointmentSummary.AppointmentSummaryFragment"
+        android:label="fragment_appointment_summary"
+        tools:layout="@layout/fragment_appointment_summary" />
+    <fragment
+        android:id="@+id/conformationFragment"
+        android:name="com.dentify.dentify.ui.fragments.confirmation.ConfirmationFragment"
+        android:label="fragment_conformation"
+        tools:layout="@layout/fragment_confirmation" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.dentify.dentify.ui.fragments.forgotPassword.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/checkYourEmailFragment"
+        android:name="com.dentify.dentify.ui.fragments.forgotPassword.CheckYourEmailFragment"
+        android:label="fragment_check_your_email"
+        tools:layout="@layout/fragment_check_your_email" />
+    <fragment
+        android:id="@+id/setNewPasswordFragment"
+        android:name="com.dentify.dentify.ui.fragments.forgotPassword.SetNewPasswordFragment"
+        android:label="fragment_set_new_password"
+        tools:layout="@layout/fragment_set_new_password" >
+        <argument
+            android:name="c"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="id"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://dentify.app.com/patients/password-reset-complete?c={c}&amp;id={id}" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordResetFragment"
+        android:name="com.dentify.dentify.ui.fragments.forgotPassword.PasswordResetFragment"
+        android:label="fragment_password_reset"
+        tools:layout="@layout/fragment_password_reset" />
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.dentify.dentify.ui.fragments.support.SupportFragment"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" />
+    <fragment
+        android:id="@+id/appointmentDetailsFragment"
+        android:name="com.dentify.dentify.ui.fragments.appointmentDetails.AppointmentDetailsFragment"
+        android:label="fragment_appointment_details"
+        tools:layout="@layout/fragment_appointment_details">
+        <argument
+            android:name="roomid"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://dentify.app.com/patients/appointment?appointmentid={roomid}" />
+    </fragment>
+    <fragment
+        android:id="@+id/verifyPersonalNumberFragment"
+        android:name="com.dentify.dentify.ui.fragments.signUp.VerifyPersonalNumberFragment"
+        android:label="fragment_verify_personal_number"
+        tools:layout="@layout/fragment_verify_personal_number">
+        <argument
+            android:name="id"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://dentify.app.com/patients/invite?id={id}" />
+    </fragment>
+    <fragment
+        android:id="@+id/attachmentsFragment"
+        android:name="com.dentify.dentify.ui.fragments.appointmentDetails.AttachmentsFragment"
+        android:label="fragment_attachments"
+        tools:layout="@layout/fragment_attachments" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.dentify.dentify.ui.fragments.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+    <fragment
+        android:id="@+id/loginWithEmailFragment"
+        android:name="com.dentify.dentify.ui.fragments.login.LoginWithEmailFragment"
+        android:label="fragment_login_with_email"
+        tools:layout="@layout/fragment_login_with_email" />
+    <fragment
+        android:id="@+id/noInvitationFragment"
+        android:name="com.dentify.dentify.ui.fragments.login.NoInvitationFragment"
+        android:label="fragment_no_invitation"
+        tools:layout="@layout/fragment_no_invitation" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.dentify.dentify.ui.fragments.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/displayLanguageFragment"
+        android:name="com.dentify.dentify.ui.fragments.settings.DisplayLanguageFragment"
+        android:label="fragment_display_language"
+        tools:layout="@layout/fragment_display_language" />
+    <fragment
+        android:id="@+id/requestsFragment"
+        android:name="com.dentify.dentify.ui.fragments.appoitmentRequests.RequestsFragment"
+        android:label="fragment_requests"
+        tools:layout="@layout/fragment_requests" />
+    <fragment
+        android:id="@+id/requestNotesFragment"
+        android:name="com.dentify.dentify.ui.fragments.appoitmentRequests.RequestNotesFragment"
+        android:label="fragment_request_notes"
+        tools:layout="@layout/fragment_request_notes" />
+    <fragment
+        android:id="@+id/requestDetailsFragment"
+        android:name="com.dentify.dentify.ui.fragments.appoitmentRequests.RequestDetailsFragment"
+        android:label="fragment_request_details"
+        tools:layout="@layout/fragment_request_details">
+        <argument
+            android:name="requestid"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://dentify.app.com/patients/appointment?requestid={requestid}" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoCallReviewFragment"
+        android:name="com.dentify.dentify.ui.fragments.videoCallReview.VideoCallReviewFragment"
+        android:label="fragment_video_call_review"
+        tools:layout="@layout/fragment_video_call_review" />
+</navigation>

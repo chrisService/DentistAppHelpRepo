@@ -1,0 +1,223 @@
+<resources>
+    <!--    <string name="app_name">Dentify</string>-->
+    <!--    navigation bar-->
+    <string name="home">Home</string>
+    <string name="appointments">Appointments</string>
+    <string name="support">Support</string>
+    <string name="profile">Profile</string>
+    <string name="uploading_photos">Uploading file, please wait</string>
+    <!--    shared-->
+    <string name="full_name">Full name*</string>
+    <string name="email">Email*</string>
+    <string name="password">Password*</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phone">Phone number*</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="upcoming_appointments">Upcoming appointments</string>
+    <string name="dentist">Dentist</string>
+    <string name="appointment_details">Appointment details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="clinic">Clinic</string>
+    <string name="reason">Reason</string>
+    <string name="video_consultation">Video Consultation</string>
+    <!--    login-->
+    <string name="log_in_title">Log In</string>
+    <string name="log_in_button">Log in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="or">OR</string>
+    <string name="log_in_using_bankid">Log in using BankID</string>
+    <!--    verification-->
+    <string name="indentification">Identification</string>
+    <string name="verify_your_personal_number_using_nthe_bankid_app_on_your_device">Verify your personal number using\nthe BankID app on your device</string>
+    <string name="verify_with_bankid">Verify with BankID</string>
+    <string name="registered">Registered</string>
+    <string name="please_fill_all_fields">Please fill all of the required fields</string>
+    <string name="please_check_your_email">Please check your email</string>
+    <!-- signup-->
+    <string name="create_password">Create Password*</string>
+    <string name="repeat_password">Repeat Password*</string>
+    <string name="i_agree_to_the">I agree to the</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up_title">Sign Up</string>
+    <!-- forgot password-->
+    <string name="forgot_pass_text">Enter the email associated with your account and we\'ll send an email with instructions to reset your password</string>
+    <string name="reset_password">Reset password</string>
+    <string name="don_t_want_to_reset_password">Don\'t want to reset password?</string>
+    <string name="check_your_email">Check your email</string>
+    <string name="we_sent_a_password_reset_link_to">We have sent a password recover instructions to</string>
+    <string name="please_check_your_email_account_and_follow_the_link">Please check your email account and follow the link</string>
+    <string name="open_email_app">Open email app</string>
+    <string name="didn_t_receive_the_email">Didn\'t receive the email? Check your spam filter or</string>
+    <string name="click_to_resend">try another email address</string>
+    <string name="back_to">Back to</string>
+    <string name="set_new_password">Set new password</string>
+    <string name="your_new_password_must_be_different_to_previously_used_passwords">Your new password must be different to previously used passwords</string>
+    <string name="new_password_">New Password*</string>
+    <string name="repeat_new_password_">Repeat New Password*</string>
+    <string name="password_reset">Password reset</string>
+    <string name="your_password_has_been_successfully_reset">Your password has been successfully reset.</string>
+    <string name="tap_on_quot_continue_quot_to_log_in_with_your_new_credentials">Tap on \"**continue**\" to log in with your new credentials</string>
+    <string name="proceed">Continue</string>
+    <!--    home-->
+    <string name="welcome_back">Welcome back</string>
+    <string name="schedule_an_appointment">Schedule an appointment</string>
+    <string name="schedule_video_consultation">Schedule Video Consultation</string>
+    <!-- appointments-->
+    <string name="past_appointments">Past appointments</string>
+
+    <!--    support-->
+    <string name="help_amp_support"><![CDATA[Help & Support]]></string>
+    <string name="we_re_here_to_help">We\'re here to help</string>
+    <string name="subject">Subject*</string>
+    <string name="message">Message*</string>
+    <string name="send_message">Send Message</string>
+    <string name="technical_support">Technical Support</string>
+    <string name="sales_and_marketing">Sales and Marketing </string>
+    <string name="please_add_subject">please add Subject</string>
+    <string name="please_write_your_message">please write your message</string>
+    <string name="thanks_for_your_message">Thank you for your message</string>
+    <!--    profile-->
+    <string name="upload_profile_photo">Upload profile photo</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="personal_information">Personal information</string>
+    <string name="log_out">Log out</string>
+    <string name="image_uploaded">Image uploaded</string>
+    <string name="image_failed_to_upload">File failed to upload</string>
+    <string name="profile_updated">Profile updated</string>
+    <!--    date and time-->
+    <string name="date_and_time">Date and time</string>
+    <string name="view_all">View all</string>
+    <string name="view_less">View less</string>
+    <string name="all_free_slots_are_shown">All available times are shown</string>
+    <!--    upload photo-->
+    <string name="upload_image">Upload images</string>
+    <string name="upload_image_text">Please upload any images or files that can help the clinician assist you during the video consultation.</string>
+    <string name="skip">Skip this step</string>
+    <string name="add_more_images">Add more images</string>
+    <string name="take_a_photo">Take a photo</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <!--  reason for appointment-->
+    <string name="reason_for_appointment">Reason for appointment</string>
+    <string name="what_can_we_help_you_with">What can we help you with?</string>
+    <string name="toothache">Toothache</string>
+    <string name="damaged_tooth">Damaged Tooth/Teeth</string>
+    <string name="gums">Gum Disease/Bleeding</string>
+    <string name="wisdom_teeth">Wisdom Teeth</string>
+    <string name="jaw_problem">Jaw Problem (TMJ)</string>
+    <string name="filling">Filling/Crown</string>
+    <string name="tooth_sensitivity">Tooth Sensitivity</string>
+    <string name="aesthetic_dentistry">Aesthetic Dentistry</string>
+    <string name="other">Other</string>
+    <!--    appointment summary-->
+    <string name="appointment_summary">Appointment summary</string>
+    <string name="confirm_appointment">Confirm Appointment</string>
+    <!--    confirmation-->
+    <string name="conformation">Confirmation</string>
+    <string name="all_set">You\'re all set!</string>
+    <string name="go_to_my_appointments">Go to My Appointments</string>
+    <string name="appointment_scheduled_for">Appointment scheduled for:</string>
+    <string name="today_">Today,</string>
+    <string name="_at_">at</string>
+
+    <!--    appointment details-->
+    <string name="cancel_appointment">Cancel Appointment</string>
+    <string name="upcoming_appointment">Upcoming appointment</string>
+    <string name="join_the_video_call">Join the video call</string>
+    <string name="view_attachments">View attachments</string>
+    <string name="discard">discard</string>
+    <string name="past_appointment">Past appointment</string>
+    <string name="reason_for_canceling">Reason for canceling*</string>
+    <string name="are_you_sure_you_want_to_cancel_this_appointment">Are you sure you want to cancel this appointment?</string>
+    <string name="no_files_attached">There are no files attached</string>
+    <!--  attachments-->
+    <string name="file_name">File name</string>
+    <string name="file_type">File type</string>
+    <string name="download">Download</string>
+    <string name="open">Open</string>
+    <string name="action">Action</string>
+    <string name="clinician_s_uploaded_files">Clinician\'s uploaded files</string>
+    <string name="patients_s_uploaded_files">Patients\'s uploaded files</string>
+    <string name="start_downloading">Started download...</string>
+    <!--    validations-->
+    <string name="email_validation_message">Please enter a valid email address</string>
+    <string name="empty_fields_user_and_pass_validation_message">Please enter username and password</string>
+    <string name="passwords_dont_match_validation_message">Passwords don\'t match</string>
+    <!--    notification-->
+    <string name="notification_title">Dentify Appointment</string>
+    <string name="notification_message">The Doctor has started Video Call</string>
+    <string name="notification_message_joined">The Doctor has joined Video Call</string>
+    <string name="notification_title_ongoing">Dentify Appointment</string>
+    <string name="notification_message_ongoing">Video Call is ongoing</string>
+
+    <!--    util-->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="broken_tooth" translatable="false">Broken tooth</string>
+
+    <string name="click_on_the_green_button_to_connect">Please click on the green button to connect</string>
+    <string name="mic_muted">Mic is off</string>
+    <string name="mic_on">Mic is on</string>
+    <string name="clinician_disconnected">Clinician disconnected from the call</string>
+    <string name="image_has_been_removed">File has been removed</string>
+    <string name="required_field">required field</string>
+    <string name="room_is_not_created">Call is not started yet</string>
+    <string name="pain_free_dentistry_made_easy">Pain free dentistry, made easy</string>
+    <string name="meeting_a_dentist_doesn_t_need_to_be_scary">Meeting a dentist doesn\'t need to be scary</string>
+    <string name="we_love_to_make_you_smile">We love to\nmake you smile</string>
+    <string name="log_in_with_email">Log in with email</string>
+    <string name="we_are_sorry">We are sorry!</string>
+    <string name="you_need_to_have_an_invite_from_your_dentist">You need to have an invite from your dentist</string>
+    <string name="contact">contact</string>
+    <string name="go_back_to">go back to</string>
+    <string name="to_use_different_account">To use different account</string>
+    <string name="preparing_your_profile">Preparing your profile...</string>
+    <string name="welcome">Welcome</string>
+    <string name="canceled_appointments">Canceled appointments</string>
+    <string name="canceled_appointment">Canceled appointment</string>
+    <string name="has_been_marked_as_done">This appointment has been **marked as done** by the clinician</string>
+    <string name="has_not_been_marked_as_done">This appointment has **not been marked as done** by the clinician</string>
+    <string name="change_profile_photo">Change profile photo</string>
+    <string name="remove_photo">Remove photo</string>
+    <string name="settings">Settings</string>
+    <string name="display_language">Display Language</string>
+    <string name="change_the_language_of_the_text">Change the language of the text</string>
+    <string name="send_instructions">Send instructions</string>
+    <string name="quick_action">Quick action</string>
+    <string name="good_morning">Good morning</string>
+    <string name="good_evening">Good evening</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="you_have_no_upcoming_nappointments">You have no\nupcoming appointments</string>
+    <string name="you_have_no_past_nappointments">You have no\npast appointments</string>
+    <string name="you_have_no_canceled_nappointments">You have no\ncanceled appointments</string>
+    <string name="confirm">Confirm</string>
+    <string name="password_tooltip">8 characters minimum\n1 uppercase letter\n1 lowercase letter\n1 special character\n1 number</string>
+    <string name="deactivate_my_profile">Deactivate my profile</string>
+    <string name="i_am_sure">I am sure</string>
+    <string name="not_now">Not Now</string>
+    <string name="type_text_here">Type text here*</string>
+    <string name="appointment_soon">You have Video consultation with your dentist in 15 minutes</string>
+    <string name="bankid_not_installed">BankID Application is not installed</string>
+    <string name="preview">Preview</string>
+    <string name="choose_file">Choose file</string>
+    <string name="add_more_files">Add more files</string>
+    <string name="new_appointemtn_request">You have new appointment request</string>
+    <string name="not_any_request_notes">There are not any request notes</string>
+    <string name="write_your_reason_for_declining">Please write your reason for declining</string>
+    <string name="all_requests">All requests</string>
+    <string name="appointment_request">Appointment request</string>
+    <string name="request_notes">Request notes</string>
+    <string name="clinician_s_notes">Clinician\'s notes</string>
+    <string name="view_request_notes">View request notes</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="request_details">Request details</string>
+    <string name="type_the_word_above">please type the word above in the empty box</string>
+    <string name="file_exceeds_mb">Your file exceeds 10MB</string>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Swedish</item>
+    </string-array>
+
+</resources>

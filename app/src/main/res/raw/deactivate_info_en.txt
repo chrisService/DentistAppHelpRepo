@@ -1,0 +1,5 @@
+Once you complete the deactivation you will be logged out, and your profile will not be active to receive any further communication from **Dentify**.
+
+If you successfully login in the next **60 DAYS** your profile will be reactivated and you will be able to use the application as before.
+
+Once **60 DAYS** pass all your personal data will be obfuscated and you won't be able to login to your account at all, unless you get a new invitation.

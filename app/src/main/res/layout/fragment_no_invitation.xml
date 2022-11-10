@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_login_with_email"
+    tools:context=".ui.fragments.login.NoInvitationFragment">
+
+    <ImageView
+        android:id="@+id/ivExclamationIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rounded_solid"
+        android:backgroundTint="#FCF0BB"
+        android:padding="11dp"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/ic_info_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvSorryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoserif_extrabold"
+        android:text="@string/we_are_sorry"
+        android:textColor="@color/text_color_7_dark_blue"
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivExclamationIcon" />
+
+    <TextView
+        android:id="@+id/tvInvitationText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/you_need_to_have_an_invite_from_your_dentist"
+        android:textAlignment="center"
+        android:fontFamily="@font/inter_regular"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvSorryText"
+        app:layout_constraintStart_toStartOf="@+id/tvSorryText"
+        app:layout_constraintTop_toBottomOf="@+id/tvSorryText" />
+
+
+    <ImageView
+        android:id="@+id/ivBorderLeft"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/borderColor"
+        app:layout_constraintEnd_toStartOf="@+id/tv_or"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInvitationText"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/or"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/ivBorderRight"
+        app:layout_constraintStart_toEndOf="@+id/ivBorderLeft"
+        app:layout_constraintTop_toBottomOf="@+id/tvInvitationText" />
+
+    <ImageView
+        android:id="@+id/ivBorderRight"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/borderColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_or"
+        app:layout_constraintTop_toBottomOf="@+id/tvInvitationText"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/contact"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvContactEmail"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_or" />
+
+    <TextView
+        android:id="@+id/tvContactEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="support@dentifyapp.se"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/text_color_2_dark_green"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvContact"
+        app:layout_constraintTop_toBottomOf="@+id/tv_or"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/tvUseDifferentAcc1Text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/to_use_different_account"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvUseDifferentAcc2Text"
+        app:layout_constraintEnd_toEndOf="@+id/tvSorryText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@+id/tvSorryText" />
+
+    <TextView
+        android:id="@+id/tvUseDifferentAcc2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/go_back_to"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="16sp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvLoginText"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLoginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/log_in_button"
+        android:textColor="@color/text_color_2_dark_green"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvUseDifferentAcc2Text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

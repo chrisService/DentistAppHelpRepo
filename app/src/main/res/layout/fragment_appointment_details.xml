@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true"
+    tools:context=".ui.fragments.appointmentDetails.AppointmentDetailsFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/screen_bottom_padding">
+
+        <ImageView
+            android:id="@+id/ivAppbarVackground"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionBar_size"
+            android:background="@drawable/ic_top_bar_bg"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@color/appBarColor"
+            android:drawableStart="@drawable/ic_back_icon"
+            android:stateListAnimator="@null"
+            app:layout_constraintBottom_toBottomOf="@+id/ivAppbarVackground"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toTopOf="@+id/ivAppbarVackground" />
+
+        <TextView
+            android:id="@+id/tvAppbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/appointment_details"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/ivAppbarVackground"
+            app:layout_constraintStart_toEndOf="@+id/btnBack"
+            app:layout_constraintTop_toTopOf="@+id/ivAppbarVackground"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter_regular"
+            android:text="@string/upcoming_appointment"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/ivAppbarVackground" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clAppointmnetDetails"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_appointment_item"
+            android:paddingBottom="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle">
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/bg_round_avatar"
+                android:elevation="5dp"
+                app:layout_constraintStart_toStartOf="@+id/guideline5"
+                app:layout_constraintTop_toTopOf="@+id/guideline4">
+
+                <TextView
+                    android:id="@+id/tvInitials"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/inter_bold"
+                    android:textColor="@color/text_color_4_ink_blue"
+                    android:textSize="24sp"
+                    tools:text="EP" />
+
+                <ImageView
+                    android:id="@+id/ivClinitianImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvDoctorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/inter_bold"
+                tools:text="Emil Pettersson"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/relativeLayout"
+                app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+
+            <TextView
+                android:id="@+id/tvDentist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/dentist"
+                android:textColor="@color/text_color_5_grey"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/relativeLayout"
+                app:layout_constraintTop_toBottomOf="@+id/tvDoctorName" />
+
+
+            <TextView
+                android:id="@+id/tvDateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/date"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/guideline5"
+                app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+            <TextView
+                android:id="@+id/tvTimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/time"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/guideline5"
+                app:layout_constraintTop_toBottomOf="@+id/tvDateText" />
+
+            <TextView
+                android:id="@+id/tvClinicText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/clinic"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/guideline5"
+                app:layout_constraintTop_toBottomOf="@+id/tvTimeText" />
+
+            <TextView
+                android:id="@+id/tvReasonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/reason"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/guideline5"
+                app:layout_constraintTop_toBottomOf="@+id/tvClinicText" />
+
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inter_bold"
+                tools:text="Today 16.03, 2022"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inter_bold"
+                tools:text="11:00h - 11:30h"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                app:layout_constraintTop_toBottomOf="@+id/tvDateText" />
+
+            <TextView
+                android:id="@+id/tvClinic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inter_bold"
+                tools:text="SE Malmö Clinic"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                app:layout_constraintTop_toBottomOf="@+id/tvTimeText" />
+
+            <TextView
+                android:id="@+id/tvReasons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/inter_bold"
+                tools:text="Broken tooth"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                app:layout_constraintTop_toBottomOf="@+id/tvClinicText" />
+
+            <ImageView
+                android:id="@+id/ivBorder"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/borderColor"
+                app:layout_constraintEnd_toEndOf="@+id/guideline8"
+                app:layout_constraintStart_toStartOf="@+id/guideline5"
+                app:layout_constraintTop_toBottomOf="@+id/tvReasonText"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/ivCamImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_video_call_icon_small"
+                app:layout_constraintBottom_toBottomOf="@+id/tvVideoConsultation"
+                app:layout_constraintEnd_toStartOf="@+id/tvVideoConsultation"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tvVideoConsultation"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tvVideoConsultation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/video_consultation"
+                android:textColor="@color/text_color_5_grey"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/ivCamImage"
+                app:layout_constraintTop_toBottomOf="@id/ivBorder" />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="16dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="16dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="16dp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:id="@+id/btnJoinCall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_login_button"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/join_the_video_call"
+            android:fontFamily="@font/inter_bold"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_3_dark_blue"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/clAppointmnetDetails" />
+
+        <Button
+            android:id="@+id/btnViewAttachments"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_login_with_bankid"
+            android:fontFamily="@font/inter_bold"
+            android:padding="10dp"
+            android:text="@string/view_attachments"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_3_dark_blue"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/btnJoinCall" />
+
+        <Button
+            android:id="@+id/btnCancelAppointment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:backgroundTint="#D64545"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/cancel_appointment"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/appRedTheme"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/btnViewAttachments" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/loginBtnColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="16dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

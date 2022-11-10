@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popupHalo">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_appointment_conformation_item"
+        android:elevation="10dp"
+        android:layout_marginBottom="-10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/ivBorder"
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:background="@color/borderColor"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvInfoText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:fontFamily="@font/inter_regular"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/btn_i_am_sure"
+            app:layout_constraintStart_toStartOf="@+id/btn_i_am_sure"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorder"
+            tools:text="dummy text" />
+
+        <ImageView
+            android:id="@+id/ivBorder01"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/borderColor"
+            app:layout_constraintBottom_toTopOf="@+id/btn_i_am_sure"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvInfoText"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btn_i_am_sure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_login_button"
+            android:backgroundTint="@color/redTextBackground"
+            android:elevation="3dp"
+            android:paddingVertical="20dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/i_am_sure"
+            android:textAllCaps="false"
+            android:textColor="@color/appRedTheme"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_not_now"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivBorder01" />
+
+        <Button
+            android:id="@+id/btn_not_now"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="30dp"
+            android:paddingVertical="20dp"
+            android:background="@drawable/bg_login_with_bankid"
+            android:elevation="3dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/not_now"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

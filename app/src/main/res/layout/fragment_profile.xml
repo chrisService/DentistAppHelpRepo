@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@android:color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.profile.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/screen_bottom_padding">
+
+        <ImageView
+            android:id="@+id/ivTitleBackground"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionBar_size"
+            android:background="@drawable/ic_top_bar_bg"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/profile"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/ivTitleBackground"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toTopOf="@+id/ivTitleBackground"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ivSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_settings_icon"
+            app:layout_constraintBottom_toBottomOf="@+id/ivTitleBackground"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toTopOf="@+id/ivTitleBackground"
+            tools:ignore="ContentDescription" />
+
+
+        <RelativeLayout
+            android:id="@+id/rlProfilePicture"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="20dp"
+            android:elevation="10dp"
+            android:background="@drawable/bg_profile_picture"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/ivTitleBackground">
+
+            <TextView
+                android:id="@+id/tvInitials"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inter_bold"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textSize="24sp"
+                tools:text="PP" />
+
+            <ImageView
+                android:id="@+id/ivProfilePic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/btnUploadProfilePic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bg_upload_profile_image_button"
+                android:paddingStart="10dp"
+                android:paddingTop="11dp"
+                android:paddingEnd="9dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/ic_camera_icon"
+                tools:ignore="ContentDescription" />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvChangePhotoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:fontFamily="@font/inter_regular"
+            android:text="@string/change_profile_photo"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvPhotoTypeText"
+            app:layout_constraintStart_toEndOf="@+id/rlProfilePicture"
+            app:layout_constraintTop_toTopOf="@+id/rlProfilePicture"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/tvPhotoTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="JPG, PNG or SVG.\nMax size of 1mb"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/rlProfilePicture"
+            app:layout_constraintStart_toEndOf="@+id/rlProfilePicture"
+            app:layout_constraintTop_toBottomOf="@+id/tvChangePhotoText"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter_regular"
+            android:text="@string/personal_information"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/rlProfilePicture" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etNameLayout"
+            style="@style/round_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="@string/full_name"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inter_regular"
+                android:inputType="textPersonName"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etEmailLayout"
+            style="@style/round_edit_text_disabled"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/email"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/etNameLayout">
+
+            <com.dentify.dentify.util.customView.EditTextCheckPattern
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="false"
+                android:fontFamily="@font/inter_regular"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etPhoneLayout"
+            style="@style/round_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/phone"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/etEmailLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inter_regular"
+                android:inputType="phone"
+                android:textColor="@color/text_color_1_dark_gray"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnSaveChanges"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_enable_selector"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/save_changes"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text_enable_selector"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/etPhoneLayout" />
+
+        <ImageView
+            android:id="@+id/ivBorder"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/borderColor"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/btnSaveChanges"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_log_out_icon"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/inter_bold"
+            android:padding="5dp"
+            android:stateListAnimator="@null"
+            android:text="@string/log_out"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_2_dark_green"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorder" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/loginBtnColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="16dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="16dp" />
+
+        <ImageView
+            android:id="@+id/ivBlur"
+            android:visibility="gone"
+            android:elevation="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ivGreyTransparentOverlay"
+            android:visibility="gone"
+            android:elevation="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6B9A9A9A"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

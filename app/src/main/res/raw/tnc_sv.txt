@@ -1,0 +1,160 @@
+
+ALLMÄNNA VILLKOR – DENTIFY AB
+Gäller fr.o.m. 2022-06-01 och tillsvidare
+1.      Allmänt om tjänsten
+Dessa allmänna villkor gäller när privatpersoner (”Kunder”) använder tjänsten för matchning och bokning (”Matchning och bokningstjänsten”) på Dentify-appen (”Appen”) för bokning av och betalning för besök hos/behandling av en legitimerad tandläkare eller legitimerad tandhygienist (”Konsultation och Behandlingstjänst”). Appen ägs och drivs av Dentify AB, org.nr 559357-9922 (nedan ”Dentify” eller ”Bolaget”). Dentify är en matchning och bokningstjänst som hjälper personer att komma i kontakt med en tandläkare eller tandhygienist som har den kompetens som bäst korresponderar med personens specifika behov. Varje tandläkare och tandhygienist som är ansluten till Dentify förmedlingstjänst (”Förmedlingstjänsten”) är av Socialstyrelsen legitimerad  tandläkare eller en tandläkare med särskilt förordnande eller tandhygienist. Det är Dentifys skyldighet att kontrollera att tandläkare eller tandhygienist som förmedlas via Dentifys webbplats uppfyller dessa krav. Tandläkare, tandhygienister, tandsköterskor och tandtekniker kallas nedan gemensamt för (”Vårdgivare”).
+
+Konsultation och Behandlingsmetodiken som används av Vårdgivarna varierar. Vid situationer som kräver direkta och akuta medicinska åtgärder skall vederbörande kontakta 112 eller närmsta akutmottagning inom den allmänna vården.
+
+Kund förbinder sig att följa dessa Allmänna villkor och eventuella andra ordningsregler och instruktioner som Bolaget från tid till annan publicerar. De Allmänna villkoren och eventuella övriga villkor och skriftliga överenskommer mellan Bolaget och Kunden avseende användningen av webbplatsen och Matchning och bokningstjänst, liksom betalning för besök hos Vårdgivare, bildar tillsammans ”Avtalet”.
+
+Kunden blir bunden av dessa Allmänna villkor när denne nyttjar Matchning och bokningstjänst på webbplatsen för bokning av och betalning för Konsultation och Behandlingstjänster.
+
+Dentify och Vårdgivarna ansvarar för att de Konsultation och Behandlingstjänster som erbjuds via Dentify tillhandahålls i enlighet med gällande lag, däribland tandvårdslagen (1985:125), patientsäkerhetslagen (2010:659), patientdatalagen (2008:355) och gällande föreskrifter. Vårdgivaransvaret regleras således inte av dessa Allmänna Villkor, utan följer av tillämplig lagstiftning.
+2.      Användarkonto
+2.1 Användning av tjänsten
+För att kunna använda Dentify måste Kunden skapa ett användarkonto, vilket Kunden gör i Appen.
+2.2 Registreringsuppgifter
+För att skapa ett användarkonto måste Kunden svara på ett antal frågor. Kunden måste också ha fyllt 18 år och ha tillgång till
+e-legitimation, d.v.s. ett Bankid; detta för att Dentify ska kunna identifiera Kunden. Kunden får bara använda Dentify för sin egen Konsultation och Behandlingstjänst. Om Kunden är vårdnadshavare för ett barn har Kunden dock rätt att nyttja Dentify för barnets räkning.
+3.      Konsultation och Behandlingstjänster
+
+3.1 Bokning av Konsultation och Behandlingstjänst
+Efter att ha registrerat ditt användarkonto kan Kunden genom Dentify boka tid hos en legitimerad tandläkare eller legitimerad tandhygienist för att få vårdkontakt i form av ett videomöte, samt inhämta information kring olika tandsjukdomar och dess symptom.
+
+3.2 Beskrivning av Konsultation och Behandlingstjänsten
+När Konsultation och Behandlingstjänsten startar kommer Kunden att bli ombedd att beskriva sitt problem för Vårdgivaren, som i sin tur kan genomföra en okulär undersökning och därefter ställa diagnos och eventuellt föreslå konsultation och behandlingsåtgärder, om möjligt. För att kunna genomföra en konsultation och behandling måste Kunden därför ha laddat ned Appen på en mobil med kamera.
+
+3.3 Vårdgivarens profil
+Konsultation och Behandlingstjänster som genomförs via Dentify utförs av Vårdgivare som har svensk legitimation vid tidpunkten för leverans av Konsultation och Behandlingstjänsten. Detta har verifierats av Dentify.
+
+3.4 Delad information
+Information som läggs till av Kunden i Appen kan gå och ladda upp i Vårdgivarens journalföringssystem. Information som finns i Vårdgivarens journalföringssystem kan också laddas upp i Appen för att underlätta tandvårdshistoriken för Kunden och användas av andra Vårdgivare som bokas och godkänns av Kunden i Appen.
+
+
+4.      Tillhandahållande av Dentify; Tillgänglighet
+
+4.1 Tillgänglighet av tjänsten
+Appen ska vara tillgänglig dygnets alla timmar, alla årets dagar, med undantag för oförutsedda eller planerade driftsavbrott i form av underhåll, så att Kunden när som helst kan logga in på sitt användarkonto och få tillgång till sina uppgifter.
+
+
+4.2 Eventuella driftstopp
+Vid planerade driftåtgärder kommer Kunden meddelas i god tid. Vid eventuella oplanerade driftstörningar kommer problemet åtgärdas så fort som möjligt. Det finns risk att tjänsten inte är tillgänglig under pågående åtgärder. Dentify kommer med all kraft stödja Kunden ska ha tillgång till deras tjänster och få bästa användarupplevelse. Dentify ansvarar emellertid inte för fel som orsakats av Kundens egna mobil eller dator.
+
+
+5.      Support; rapportering av fel och avbrott
+
+För frågor rörande användningen av Appen hänvisas Kunden Dentifys vår support. Kunden når supporten på support@dentify.se. Supporten är öppen på de tider som anges i Appen och på webbplatsen. Supporten ämnar att svara inom 24 timmar från att ett ärende skickats in, med undantag för helger. Kunden kan även hitta svar på vanliga frågor på webbplatsen. Kunden ombeds att anmäla fel eller avbrott i Appen till Dentify via supporten ovan så snabbt som möjligt efter att Kunden upptäckt felet eller avbrottet.
+
+6.      Betalning
+
+6.1 Avtalsparter
+Avtal om köp av Konsultation och Behandlingstjänst ingås mellan Kunden och Vårdgivaren. Avtal om användning av Matchning och bokningstjänsten på Appen, ingås mellan Kunden och Bolaget. Kund som är privatperson omfattas av bestämmelserna i Lag (2005:59) om distansavtal och avtal utanför affärslokaler. För att slutföra bokning och betalning på webbplatsen krävs att Kunden är minst 18 år eller innehar målsmans godkännande. Bokning får inte göras i annan persons namn utan dennes medgivande. Bolaget förbehåller sig rätten att i enskilda fall neka eller ändra en Kunds bokning.
+
+6.2 Kostnad av tjänst
+Det kostar ingenting att ladda ned Appen eller att upprätta ett användarkonto. Tillsvidare kommer alla konsultationer att vara gratis. Därför kan vissa Vårdgivare vilja ta ut en avgift för Konsultation och Behandlingstjänst. Priset för Konsultation och Behandlingstjänsten kommer att visas tydligt och Kunden har frihet att välja om denne vill acceptera avgiften eller ej.
+
+6.3 Betalningsavvikelser
+Vid en debiteringsbar Konsultation och Behandlingstjänst kommer Konsultation och Behandlingstjänsten inte genomföras om ingen betalning sker.
+
+6.4 Betalningsmetoder
+Vid debiterbar Konsultation och Behandlingstjänst kommer betalningen ske via de betalningslösningar som presenteras i Appen. Dentify tillhandahåller olika betalningslösningar. Exempel på dessa är Klarna, Swish, Stripe, m.m. Alla betalningslösningar levererar säkra betalningsmöjligheter med säker identifiering via BankID. Kunder som använder Appen och betalar godkänner leverantörens kundvillkor (Klarna, Swish, Stripe m.m.). Mer information om de olika betalsätten samt kundservice finns på deras hemsida.
+
+
+6.5 Betalningsbekräftelse
+Betalningsbekräftelse och länk till dessa Allmänna villkor levereras digitalt per e-post efter godkänd betalning till den e-postadress som angivits i bokningen.
+
+Antalet till Matchning och bokningstjänsten anslutna legitimerad tandläkare och legitimerad tandhygienister liksom tillgängliga tider för bokning, kan komma att variera från tid till annan. Om det inte finns några tider tillgängliga för bokning kommer Kunden underrättas om detta innan bokning. Bolaget förbehåller sig rätten att på webbplatsen ange att bokning av Konsultation och Behandlingstjänster, hos vissa eller samtliga Vårdgivare, för tillfället inte kan ske.
+
+6.6 Ångerrätt
+Under förutsättning att Konsultation och Behandlingstjänst inte redan utförts av Vårdgivare i enlighet med bokning på webbplatsen har Kund som är privatperson, enligt lag (2005:59) om distansavtal och avtal utanför affärslokaler, 14 dagars ångerrätt. Kund som är privatperson har således rätt att inom ångerfristen ångra sitt köp av Konsultation och Behandlingstjänst utan att ange något skäl. Ångerfristen löper ut fjorton (14) dagar efter köpet.
+
+För att utöva ångerrätten ska Kunden till Bolaget skicka ett klart och tydligt meddelande om Kundens beslut att frånträda Avtalet samt återsända det digitala kvittot till info@dentify.se. Kunden kan även på Bolagets webbplats dentify.se elektroniskt fylla i och skicka in meddelande om utövande av ångerrätten. Bolaget kommer utan dröjsmål via e-post bekräfta att Bolaget mottagit Kundens beslut om att utöva ångerrätten.
+
+Om Kund utövar sin ångerrätt kommer Bolaget att betala tillbaka alla eventuella betalningar som Bolaget mottagit från Kunden. Återbetalningen kommer att ske utan onödigt dröjsmål och senast fjorton (14) dagar från och med den dag då Bolaget underrättades om Kundens beslut att frånträda Avtalet. Bolaget kommer att använda samma betalningsmedel för återbetalningen som Kunden själv har använt för betalning till Bolaget, om Kunden inte uttryckligen kommit överens med Bolaget om något annat. Återbetalningen kommer inte vara förenad med någon kostnad för Kunden.
+
+6.7 Nöjd-Kund-garanti
+Dentify erbjuder nöjd-Kund-garanti. Dentifys nöjd-Kund-garanti innebär att du som klient kan begära att få träffa en ny Vårdgivare avgiftsfritt om du mot förmodan inte är nöjd med den Vårdgivare du har träffat. Om du är missnöjd med ett Konsultation och Behandlingstjänstsamtal som är förmedlat av Dentify och vill begära att få träffa en ny Vårdgivare ber vi dig att inom 48 timmar ta kontakt på info@dentify.se. Nöjd-kund-garantin gäller endast för det första samtalet med din Vårdgivare.
+
+
+7.      Bokning
+
+7.1 Bokningsvillkor
+Konsultation och Behandlingstjänster hos Vårdgivare måste bokas i förväg. Vid bokning får Kunden information om vilka datum som finns tillgängliga för bokning av Konsultation och Behandlingstjänst hos egen Vårdgivare eller de Vårdgivare som rekommenderas för Kunden. För att slutföra bokningen måste Kunden förskottsbetala eventuella debiterbara Konsultation och behandlingstjänster på av Bolaget anvisat sätt.
+
+Avbokning kan ske fram till och med tjugofyra (48) timmar före det inbokade tillfället. Avbokning sker genom inloggning på Kundens personliga konto. Bekräftelse av avbokningen skickas per e-post. Har Kund ej mottagit någon bekräftelse av avbokningen åligger det denne att inom senast tjugofyra (24) timmar före det inbokade tillfället kontakta Bolagets Kundservice. Om Kunden inte gjort någon avbokning men uteblir från besökstillfället eller avbokningen inte har bekräftats av Bolaget kan Kunden eventuellt debiteras av Vårdgivaren. När Kunden bokat tid för utförande av Konsultation och Behandlingstjänst föreligger ett separat avtal mellan Kund och Vårdgivare.
+
+Bolaget förbehåller sig rätten att ändra utbudet av Vårdgivare. På webbplatsen hittar du mer information om tillgänglighet, restriktioner och annan viktig information kring bokningen. Bolaget rekommenderar att detta kontrolleras innan bokning och betalning.
+
+7.2 Kundens ansvar
+Kund ansvarar för att ha nödvändiga anslutningar och utrustning för användande av tjänsten och för genomförande av betalning via Appen. Med nödvändiga anslutningar och utrustning avses bl.a. fungerande internet- och mobilanslutningar och digitala enheter och webbläsare som möjliggör åtkomst till bokning, betalning samt leverans av tjänsten via videosamtal.
+
+Vid videosamtal ansvarar Kunden för att tillhandahålla utrustning (dator/mobil/platta, mikrofon, kamera) och en fast internetuppkoppling. Kunden ansvarar för att hålla kopior av bokningsbekräftelse och övriga meddelanden som skickats från Bolaget till Kunden i samband med betalningen.
+
+Kunden ansvarar för riktigheten i den information som lämnas i samband med bokning och betalning på webbplatsen. Bolaget och Vårdgivare ansvarar inte för eventuella skador som uppkommer på grund av att Kunden lämnat felaktig information.
+
+Kund förbinder sig som användare av webbplatsen och Matchning och bokningstjänsten att:
+a) Inte använda webbplatsen eller Matchning och bokningstjänsten för annat ändamål än nödvändig och personlig Konsultation och Behandlingstjänst hos Vårdgivare.
+b) Inte använda webbplatsen eller Matchning och bokningstjänsten vid situationer som kräver/livshotande sjukvård. Vid situationer som kräver direkta och akuta medicinska åtgärder skall vederbörande kontakta 112 eller närmsta akutmottagning inom den allmänna vården.
+c) Om Kund väljer att fortsätta gå till Vårdgivare som förmedlas av Bolaget, fortsätta att boka Kundens besök hos denne via webbplatsen och Matchning och bokningstjänsten.
+d) Hantera Kundens inloggningsuppgifter (bland annat lösenord till BankID) på sådant sätt att annan person inte får kännedom om det.
+e) Genast anmäla ändringar av tidigare lämnade uppgifter om förändring av dessa skett såsom adress, telefonnummer, e-postadress, kreditkortsuppgifter m.m.
+
+7.3  Vårdgivarens ansvar
+Vårdgivare är ansvariga för att Konsultation och Behandlingstjänsterna utförs på ett tillfredsställande och fackmannamässigt sätt. Konsultation och Behandlingstjänster som kan bokas av Kund i Appen genomförs av utvalda Vårdgivare vilka, genom avtal med Bolaget, åtagit sig att utföra tjänsterna i enlighet med de kvalitetskrav som Bolaget från tid till annan ställer.
+
+När Kund bokat tid för Konsultation och Behandlingstjänster utförande föreligger ett separat avtal mellan Kunden och Vårdgivaren. Det innebär att Vårdgivarens villkor för Konsultation och Behandlingstjänstens utförande gäller samt att Kunden är ansvarig för att informera sig om och följa dessa villkor. Kunden ska vända sig till Vårdgivaren vid anmärkning på utförda Konsultationer eller Behandlingstjänster.
+
+7.4  Reklamation och återkoppling från Kund
+Eventuella klagomål och synpunkter på utförandet av Konsultation och Behandlingstjänsten ska i första hand framföras till och hanteras av aktuell Vårdgivare. Bolaget är dock intresserad av Kundens upplevelse av Konsultation och Behandlingen för att kunna kontrollera och förbättra matchningen och bokning mellan Kund och Vårdgivare.
+
+7.5 Bolagets ansvar
+Bolaget är inte part i avtalet om köp av Konsultation och Behandlingstjänst eller övriga överenskommelser som ingås mellan Kund och Vårdgivare avseende utförandet av Konsultation och Behandlingstjänsten. Bolaget har således inte något ansvar för eventuella tvister som kan uppstå mellan Kund och Vårdgivare, t.ex. missförstånd i avtal, oenigheter gällande tjänstens utförande, skada eller utebliven betalning.
+
+Bolaget ansvarar inte för skador, förluster (varken direkta eller indirekta) eller andra olägenheter som kan härledas till genomförandet av, eller har annan koppling till, den Konsultation och Behandlingstjänst som webbplatsen möjliggör bokning av. Bolaget ersätter inte och ska inte hållas ansvarig för eventuella merkostnader som kan ha uppkommit som en följd av bokning av Konsultation och Behandlingstjänst.
+
+Bolaget kan aldrig hållas skadeståndsansvarig till följd av felaktigt utförande av Konsultation och Behandlingstjänst. Bolaget är dock skyldigt att kontrollera att Vårdgivare uppfyller Bolagets krav på giltig legitimation och nödvändig kompetens.
+
+7.6 Tillgänglighet
+Tjänsten är normalt tillgänglig 24 timmar per dygn, sju dagar i veckan. Bolaget garanterar dock inte och ansvarar heller inte för att tjänsten är fri från eventuella fel, förseningar eller avbrott. Bolaget förbehåller sig rätten att när som helst tillfälligt avbryta tillhandahållandet av tjänsten för serviceändamål, t.ex. buggrättningar, underhåll och uppgraderingar. Bolaget har inget ansvar för uppdatering av tjänstens åtkomsträttigheter. Bolaget arbetar aktivt för att de uppgifter som publiceras på webbplatsen är korrekta men kan ej garantera detta.
+
+
+8.      Ansvarsbegränsning
+8.1 Bolagets ansvar
+Bolaget ansvarar inte i något fall för indirekt skada eller följdskador till följd av fel eller brister i webbplatsen.
+
+8.2 Force Majeure
+Bolaget är befriat från ersättningsskyldighet eller annat ansvar gentemot Kund om Bolaget förhindras att fullgöra sina åtaganden på grund av omständighet utanför Bolagets kontroll eller förmåga som Bolaget inte skäligen kunnat förväntas förutse, och vars följder Bolaget inte heller skäligen skulle kunna ha undvikit eller övervunnit, eller om Bolaget förhindras fullgöra sina skyldigheter på grund av omständighet som är hänförlig till tredje man eller på grund av naturkatastrof, blixtnedslag, elavbrott, arbetskonflikt, krig eller annan orolighet, eldsvåda, nytillkommen eller ändrad lagstiftning eller myndighetsbestämmelse, fel i extern teleförbindelse eller liknande omständigheter.
+
+
+9.      Överlåtelse och underleverantör
+Kund får inte överlåta detta Avtal, eller sina rättigheter och skyldigheter enligt detta Avtal, utan föregående skriftligt medgivande från Bolaget. Bolaget har rätt att utan Kundens samtycke helt eller delvis överlåta detta Avtal, eller sina rättigheter och skyldigheter enligt detta Avtal, såsom t.ex. hantering av fakturering. Vidare har Bolaget har rätt att anlita underleverantörer för fullgörandet av sina åtaganden enligt Avtalet.
+
+10.    Uppsägning av förmedlingstjänst
+Avtal om användningen av Bolagets förmedlingstjänst är att se som ett avtal som gäller tills endera parten säger upp avtalet. Bolaget och Kund har, var för sig, rätt att när som helst säga upp avtalet. En uppsägning påverkar inte Kunds betalningsansvar för redan inbokade eller genomförda Konsultation och Behandlingstjänster. Kund som önskar upphöra med användningen av Bolagets tjänster ska vända sig till Bolagets kundtjänst för borttagning av det personliga inloggningskontot.
+
+Om Bolaget bedömer att Kund missbrukar användningen av tjänster har Bolaget rätt att omedelbart stänga av Kunden. Kunden ska skriftligen underrättas om att sådan åtgärd vidtagits.
+
+11.    Övriga frågor
+11.1 Villkorsändring
+Bolaget äger rätt att utan förvarning, oaktad anledning, ändra dessa Allmänna villkor utan föregående avisering till Kund. Eventuella ändringar träder i kraft så snart de blivit tillgängliga på webbplatsen. Kund uppmanas därför att hålla sig uppdaterad vad gäller de Allmänna villkoren.
+
+11.2 Immateriella rättigheter
+Bolaget äger och förfogar över samtliga immateriella rättigheter, inklusive namnrättigheter, kännetecken, varumärken (såväl registrerade som oregistrerade), upphovsrätter (inklusive källkod), all mjukvara, mjukvarulicenser eller patent, Kunddatabaser, register, texter, bilder och logotyper som hanteras av Bolaget och som finns tillgänglig på webbplatsen. Inget i dessa Allmänna villkor ska tolkas som en överlåtelse av dessa immateriella rättigheter. All kopiering, ändring, överlåtelse och/eller annan användning av material som inte uttryckligen tillåts enligt dessa villkor är förbjuden. Kunden äger inte rätt att kopiera, mångfaldiga, tillgängliggöra eller på annat sätt förfoga över sådant material.  Kund bekräftar och accepterar att otillåten användning av dessa immateriella rättigheter kan, utöver att utgöra brott mot dessa villkor, vara brottsligt. Bolaget förbehåller sig rätten att vidta rättsliga åtgärder vid händelse av sådan otillåten användning av dessa immateriella rättigheter. Eventuella immateriella rättigheter som uppkommer som ett resultat av tillhandahållandet av Appen och/eller andra tjänster åt Kunden, ska tillfalla Bolaget med ensamrätt. Sådan ensamrätt inkluderar en rätt att fritt ändra, vidareöverlåta och vidareupplåta sådant resultat. Kund får inte använda Appen (i) för något bedrägligt eller annars olagligt ändamål, (ii) på ett sätt som är avsett att störa driften av Appen, (iii) för att utreda, ändra, anpassa, översätta, "reverse engineer", dekompilera eller nedmontera någon del av Appen, inklusive utan begränsning dess objektkod eller källkod, (iv) för att kopiera, återge, sälja eller på annat sätt exploatera Dentify eller dess innehåll, (v) för att avlägsna eventuella noteringar avseende upphovsrätt, varumärken eller annan äganderätt från Dentify eller material som återfinns i Dentify, eller för att överföra eller på annat sätt introducera virus, trojaner, mask, eller annan skadlig programvara eller kod, eller på annat sätt skada eller negativt påverka Dentify tillgänglighet eller funktionalitet.
+
+
+12.    Klagomål
+12.1 Hanteras av Dentify
+Om Kund har klagomål gällande Appen ber vi Kunden att kontakta supporten i första hand. Detsamma gäller om Kund har klagomål gällande den vård som Vårdgivare lämnat inom ramen för en Konsultation och Behandlingstjänst (se punkt 5). Detta så att Dentify kan sätta Kund i kontakt med den som utfört Konsultation och Behandlingstjänsten.
+
+12. 2 Hanteras av IVO (Inspektionen för Vård och Omsorg)
+Klagomål rörande den vård som Vårdgivaren lämnat inom ramen för en Konsultation och Behandlingstjänst kan även lämnas till IVO (Inspektionen för Vård och Omsorg). Ytterligare information om vad som gäller vid missnöje avseende tandvården framgår på 1177.
+
+  
+
+13.    Lagval och tvistelösning
+Avtalet regleras av svensk lag. Vid tvist som rör tolkning eller tillämpning av Avtalet ska Bolaget och Kunden i första hand försöka komma överens. Om Bolaget och Kunden inte kan enas kan tvisten prövas av allmän domstol. Tvist kan även prövas av Allmänna reklamationsnämnden (Box 174, 101 23 Stockholm, [www.arn.se](http://www.arn.se)), vars beslut är en rekommendation till parterna om hur tvisten bör lösas.
+
+●       *  *
+
+

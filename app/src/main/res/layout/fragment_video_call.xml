@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/videoCallBackground"
+    android:keepScreenOn="true"
+    tools:context=".ui.fragments.videoCall.VideoCallFragment">
+
+
+    <ImageView
+        android:id="@+id/ivAppLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_logo_video_rev2"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/ivMuteIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/bg_rounded_solid"
+        android:elevation="10dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/videoCallIconBackground"
+        android:padding="11dp"
+        android:src="@drawable/ic_mute_off"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btnAudio"
+        tools:ignore="ContentDescription" />
+
+    <com.twilio.video.VideoView
+        android:id="@+id/videoViewDoctor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="200dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13"
+        tools:backgroundTint="@android:color/holo_red_dark" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginVertical="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnConnect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivAppLogo">
+
+        <ImageView
+            android:id="@+id/ivBgTop"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:rotation="180"
+            android:background="@drawable/bg_video_call"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ivBgCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/ivBgBottom"
+            android:layout_below="@id/ivBgTop"
+            android:layout_centerInParent="true"
+            android:background="@color/videoCallBackground"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ivBgBottom"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_video_call"
+            tools:ignore="ContentDescription" />
+
+        <RelativeLayout
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_round_avatar">
+
+            <TextView
+                android:id="@+id/tvInitials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/inter_bold"
+                android:textColor="@color/text_color_4_ink_blue"
+                android:textSize="50sp"
+                tools:text="EP" />
+
+            <ImageView
+                android:id="@+id/ivClinitianImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_waves_1"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_waves_2"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_waves_3"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tvClinician"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/ivClinicLogo"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:text="Dr. Emil Pettersson" />
+
+    <TextView
+        android:id="@+id/tvClinic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/inter_regular"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCameraSwitch"
+        app:layout_constraintStart_toEndOf="@+id/ivClinicLogo"
+        tools:text="SE Malmö Clinic" />
+
+
+    <ImageView
+        android:id="@+id/ivClinicLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/ic_clinic_icon"
+        app:layout_constraintBottom_toTopOf="@+id/btnCameraSwitch"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvClickText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/click_on_the_green_button_to_connect"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <RelativeLayout
+        android:id="@+id/rlSmallVideoLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_audio_button"
+        android:elevation="10dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFullScreen"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toEndOf="@+id/guideline1">
+
+        <com.twilio.video.VideoView
+            android:id="@+id/videoViewPatient"
+            android:layout_width="match_parent"
+            android:layout_height="175dp" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnAudio"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_audio_button"
+        android:fontFamily="@font/inter_regular"
+        android:text="audio"
+        android:textColor="@color/text_color_1_dark_gray"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+    <ImageButton
+        android:id="@+id/btnCameraSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_rounded_solid"
+        android:backgroundTint="@color/videoCallIconBackground"
+        android:padding="11dp"
+        android:src="@drawable/ic_camera_on"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnMute"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btnMute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_rounded_solid"
+        android:backgroundTint="@color/videoCallIconBackground"
+        android:padding="11dp"
+        android:src="@drawable/ic_mute_on"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnConnect"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnCameraSwitch"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_login_button"
+        android:backgroundTint="@color/loginBtnColor"
+        android:padding="11dp"
+        android:src="@drawable/ic_video_call_start"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCamSwitch"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnMute"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btnDisconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_rounded_solid"
+        android:backgroundTint="@color/videoCallEndIconBackground"
+        android:padding="11dp"
+        android:src="@drawable/ic_video_call_end"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCamSwitch"
+        app:layout_constraintStart_toEndOf="@+id/btnMute"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btnCamSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_rounded_solid"
+        android:backgroundTint="@color/videoCallIconBackground"
+        android:padding="11dp"
+        android:src="@drawable/ic_switch_camera"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnFullScreen"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnConnect"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btnFullScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_rounded_solid"
+        android:backgroundTint="@color/videoCallIconBackground"
+        android:padding="11dp"
+        android:src="@drawable/ic_full_screen_on"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnCamSwitch"
+        tools:ignore="ContentDescription" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/btnCamSwitch"
+        app:layout_constraintGuide_percent="0.55"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnConnect" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

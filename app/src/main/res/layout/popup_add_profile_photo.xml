@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popupHalo"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/bg_change_photo_popup"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout4">
+
+
+        <TextView
+            android:id="@+id/tvChangePhotoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:fontFamily="@font/inter_regular"
+            android:text="@string/change_profile_photo"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvPhotoTypeText"
+            app:layout_constraintStart_toEndOf="@+id/rlProfilePicture"
+            app:layout_constraintTop_toTopOf="@+id/rlProfilePicture"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/tvPhotoTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="JPG, PNG or SVG.\nMax size of 1mb"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/rlProfilePicture"
+            app:layout_constraintStart_toEndOf="@+id/rlProfilePicture"
+            app:layout_constraintTop_toBottomOf="@+id/tvChangePhotoText"
+            tools:ignore="HardcodedText" />
+
+        <RelativeLayout
+            android:id="@+id/rlProfilePicture"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/bg_profile_picture"
+            android:elevation="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/tvInitials"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_camera_illustration"
+                android:layout_margin="20dp"
+                app:tint="@color/text_color_1_dark_gray"
+                android:gravity="center"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/ivProfilePic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="ContentDescription" />
+
+
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/btnTakePhoto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_login_button"
+            android:elevation="3dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/take_a_photo"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnOpenGalery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_login_with_bankid"
+            android:elevation="3dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/choose_from_gallery"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_1_dark_gray"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnRemovePhoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnTakePhoto" />
+
+        <Button
+            android:id="@+id/btnRemovePhoto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@null"
+            android:elevation="3dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/remove_photo"
+            android:textAllCaps="false"
+            android:textColor="@color/appRedTheme"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnOpenGalery" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

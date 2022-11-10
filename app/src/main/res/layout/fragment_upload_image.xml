@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.fragments.uploadImage.UploadImageFragment">
+
+    <ImageView
+        android:id="@+id/ivAppbarBackground"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBar_size"
+        android:background="@drawable/ic_top_bar_bg"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@color/appBarColor"
+        android:drawableStart="@drawable/ic_back_icon"
+        android:stateListAnimator="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/ivAppbarBackground"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/ivAppbarBackground" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/upload_image"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivAppbarBackground"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="@+id/ivAppbarBackground"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvScreenText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/upload_image_text"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/ivAppbarBackground" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clPhotos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_schedule_an_appointment"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddFile"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/tvScreenText">
+
+
+        <ImageView
+            android:id="@+id/ivPhotoIllustration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_file_illustration"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
+            tools:visibility="gone" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/clImageColage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvImages"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/clDummyFile"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rvImages">
+
+
+                    <ProgressBar
+                        android:id="@+id/progressBar2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvFileName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/inter_bold"
+                        android:maxLines="1"
+                        android:textColor="@color/text_color_7_dark_blue"
+                        android:textSize="16sp"
+                        app:layout_constrainedWidth="true"
+                        app:layout_constraintBottom_toBottomOf="@+id/tvPreview"
+                        app:layout_constraintEnd_toStartOf="@+id/tvExtension"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintHorizontal_chainStyle="packed"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/tvPreview"
+                        tools:text="some video file sdadasdsad" />
+
+                    <TextView
+                        android:id="@+id/tvExtension"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/inter_bold"
+                        android:textColor="@color/text_color_7_dark_blue"
+                        android:textSize="16sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/tvPreview"
+                        app:layout_constraintEnd_toStartOf="@+id/tvPreview"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@+id/tvFileName"
+                        app:layout_constraintTop_toTopOf="@+id/tvPreview"
+                        tools:text=".pdf" />
+
+                    <TextView
+                        android:id="@+id/tvPreview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/preview"
+                        android:textColor="@color/text_color_2_dark_green"
+                        android:textSize="16sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/ivBorder"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/ivBorder"
+                        android:layout_width="1dp"
+                        android:layout_height="0dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/borderColor"
+                        app:layout_constraintBottom_toBottomOf="@+id/tvPreview"
+                        app:layout_constraintEnd_toStartOf="@+id/progressBar2"
+                        app:layout_constraintTop_toTopOf="@+id/tvPreview"
+                        tools:ignore="ContentDescription" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_login_button"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/proceed"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="14sp"
+        android:visibility="gone"
+        android:paddingVertical="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnTakePhoto"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnAddFile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_login_with_bankid"
+        android:drawableStart="@drawable/ic_add_icon"
+        android:drawablePadding="10dp"
+        android:paddingVertical="20dp"
+        android:fontFamily="@font/inter_bold"
+        android:foregroundGravity="center"
+        android:paddingStart="120dp"
+        android:text="@string/add_more_files"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/btnContinue"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:ignore="RtlSymmetry"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnTakePhoto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingVertical="20dp"
+        android:background="@drawable/bg_login_button"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/take_a_photo"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnOpenGalery"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/btnOpenGalery"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login_with_bankid"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/choose_from_gallery"
+        android:textAllCaps="false"
+        android:paddingVertical="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/btnOpenFiles"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/btnOpenFiles"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:background="@drawable/bg_login_with_bankid"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/choose_file"
+        android:textAllCaps="false"
+        android:paddingVertical="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/text_color_1_dark_gray"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/btnSkip"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/inter_bold"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"
+        android:text="@string/skip"
+        android:textSize="16sp"
+        android:textColor="@color/text_color_2_dark_green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <ImageView
+        android:id="@+id/ivBlur"
+        android:visibility="gone"
+        android:elevation="11dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/ivGreyTransparentOverlay"
+        android:visibility="gone"
+        android:elevation="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6B9A9A9A"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "88848069153",
+    "project_id": "dentify-d8f35",
+    "storage_bucket": "dentify-d8f35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88848069153:android:f1a185f7fd852fe3676960",
+        "android_client_info": {
+          "package_name": "com.dentify.dentify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88848069153-i06gpbbjcbm17hmg2u1h3dov2l2979bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOpvLhK1S9Q69_6cpVF7TxPW4NyFjSwRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88848069153-i06gpbbjcbm17hmg2u1h3dov2l2979bk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "88848069153-lv0tm60mstcud8saibdrllvo2ug58pm4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.HASELT.Dentify",
+                "app_store_id": "835599320"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88848069153:android:e3682b75ac3fcd8c676960",
+        "android_client_info": {
+          "package_name": "com.dentify.dentify.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88848069153-i06gpbbjcbm17hmg2u1h3dov2l2979bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOpvLhK1S9Q69_6cpVF7TxPW4NyFjSwRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88848069153-i06gpbbjcbm17hmg2u1h3dov2l2979bk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "88848069153-lv0tm60mstcud8saibdrllvo2ug58pm4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.HASELT.Dentify",
+                "app_store_id": "835599320"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88848069153:android:669496cee415682e676960",
+        "android_client_info": {
+          "package_name": "com.dentify.dentify.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88848069153-i06gpbbjcbm17hmg2u1h3dov2l2979bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOpvLhK1S9Q69_6cpVF7TxPW4NyFjSwRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88848069153-i06gpbbjcbm17hmg2u1h3dov2l2979bk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "88848069153-lv0tm60mstcud8saibdrllvo2ug58pm4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.HASELT.Dentify",
+                "app_store_id": "835599320"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
